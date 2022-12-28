@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+/* eliminando padrão de navegador para não interferir na formatação */
+body {
+    display:block;
+    margin: 0;
+    padding-top: 0;
+    background-color: #33497B;
+    
+}
+/* -----------------------------------------------cabeçalho--------------------------------------------------------------------------------- */
+header {    
+    
+    display:flex; /* criando um display dentro do cabeçalio */
+    justify-content: space-between; /*alinha meus elementos dendro do display nas estremidades*/
+    align-items: center; /*alinha os elementos em linha dentro do display*/
+    background: linear-gradient(90deg,#200F22,#33497B,#131217); /* definindo cor de fundo do menu do cabeçalio */
+    border-bottom: 10px solid #000;/* criando uma borda inferior para separar o cabeçalio do corpo*/
+    padding: 0px 20px;/*aplicando um respiro para que meus elementos não incostem nos cantos do header */
+     /* os comandos abaixo permitem que meu cabeçalho ocupe sempre 100% da tela */
+    /* max-width: 100%; 
+    width: 100%; */
+}
+/* definindo padrão texto/logo canto esquerdo */
+header p {    
+   color: #fff; /*cor da fonte*/
+   font-size: 20PX; /*tamanho da fonte*/
+   font-family: 'Fira Code', monospace; /*fonte */
+   margin: 10px;
+   padding: 10px;/*verificar apos concluir o cabeçalho */
+    
+}
+nav{
+    text-align: right; /*alinhando menu de navegação a direita- right*/
+    min-width: 400px;/* tamanho minimo caixa de navegação */
+}
+/* definindo padrão texto NAV */
+nav a {
+    color: #FFF;/*cor da minha fonte*/
+    font-size: 14PX; /*definindo a tamanho da minha fonte*/
+    font-family: 'Fira Code', monospace; /*fonte */
+    text-decoration: none; /*delet traço embaixo do link- pesuisa: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration*/
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px; /*separando os itens em linha*/     
+}
+/* botão contato */
+#contatonav{
+    display: inline-block;/*e necessário mudar a caracteristica o display para que eu consiga colocar o tamanho que eu quero no meu botão*/
+    background-color: #33497B;
+    border-radius: 10px;
+    height: 20px; /*definindo altura do botão*/
+    line-height: 20px;/*au utilizar este comando com o mesmo valor da altura nosso elemento fica centralizado*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 3px #000000;
+    margin-right: 0px;
+    transition: transform 70ms linear; /*tempo de tansição para o transform: scale(1.08)*/
+}
