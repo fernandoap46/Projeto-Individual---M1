@@ -10,7 +10,7 @@
     <!-- resetar alguns padroes de navegadores -->
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <!-- lincando o css ao nosso html -->
-    <link rel="stylesheet" href="./assets/CSS/Style01.css">
+    <link rel="stylesheet" href="./assets/CSS/form.css">
     <!-- nome na aba do navegador -->
     <title>Portifolio Fernando</title>
 </head>
@@ -27,12 +27,20 @@
             </nav>
     </header>
     <main>
-        <form>
-            <h2>Entrar em contato</h2>
-            <input type="text" name="email" placeholder="Seu e-mail.."/>
-            <input type="text" name="email" placeholder="Seu e-mail.."/>
-        </form>
-        
+        <div class="formulario">
+            <section>
+                <h2>Entrar em contato</h2>
+                <form>            
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome.."/>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail.."/>
+                    <label>Mensagem</label>
+                    <textarea name="mensage" cols="30" rows="10">Digite sua mensagem...</textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </div>
     </main>
     
 
