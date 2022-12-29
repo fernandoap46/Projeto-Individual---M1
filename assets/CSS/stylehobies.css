@@ -57,3 +57,27 @@ nav a {
     margin-right: 0px;
     transition: transform 70ms linear; /*tempo de tansição para o transform: scale(1.08)*/
 }
+
+/* ----------------------------------main/corpo--------------------- */
+main{
+    display:flex;
+    margin: 0px;
+    background: linear-gradient(90deg,#200F22,#33497B,#131217); /* definindo cor de fundo do menu do cabeçalio */
+    align-items: center;
+    padding: 0px 10px 10px 20px;
+    font-family: 'Fira Code', monospace; /*fonte */
+    color: #FFF;
+}
+.container img {
+    max-width: 280px;
+    max-height: 250px;
+    border-color: #33497B;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+
+
+

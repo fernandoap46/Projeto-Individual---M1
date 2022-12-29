@@ -2,6 +2,7 @@
 body {
     margin:0;
     padding-top: 0;
+    background: linear-gradient(90deg,#131217,#33497B,#200F22);
     
     
     
@@ -97,4 +98,47 @@ main{
 .apresentacao h2{
     font-size: 30px;
     margin-top: 100px;
+}
+.botaocorpo a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;/*cor da minha fonte*/
+    font-size: 14PX; /*definindo a tamanho da minha fonte*/
+    font-family: 'Fira Code', monospace; /*fonte */
+    text-decoration: none; /*delet traço embaixo do link- pesuisa: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration*/
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+#btcorpo{
+    display: inline-block;/*e necessário mudar a caracteristica o display para que eu consiga colocar o tamanho que eu quero no meu botão*/
+    background-color: #33497B;
+    border-radius: 10px;
+    height: 20px; /*definindo altura do botão*/
+    line-height: 20px;/*au utilizar este comando com o mesmo valor da altura nosso elemento fica centralizado*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 3px #000000;
+    margin-right: 0px;
+    transition: transform 70ms linear; /*tempo de tansição para o transform: scale(1.08)*/
+}
+
+#btcorpo:hover{
+    transform: scale(1.08); /*comando para animação ao passar o mouse*/
+}
+#btcorpo1{
+    display: inline-block;/*e necessário mudar a caracteristica o display para que eu consiga colocar o tamanho que eu quero no meu botão*/
+    background-color: #33497B;
+    border-radius: 10px;
+    height: 20px; /*definindo altura do botão*/
+    line-height: 20px;/*au utilizar este comando com o mesmo valor da altura nosso elemento fica centralizado*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 3px #000000;
+    margin-right: 0px;
+    transition: transform 70ms linear; /*tempo de tansição para o transform: scale(1.08)*/
+}
+#btcorpo1:hover{
+    transform: scale(1.08); /*comando para animação ao passar o mouse*/
 }
